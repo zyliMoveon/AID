@@ -1,15 +1,14 @@
-# GenSID: A versatile generative framework for systematic imaging biomarker discovery
-This is a code implementation of "**A versatile generative framework for systematic imaging biomarker discovery**"
+# AID: Auto-discovery of imaging biomarkers using generative artificial intelligence
+This is a code implementation of "**Auto-discovery of imaging biomarkers using generative artificial intelligence**"
 
 ## Introduction
-Systematically discovering imaging biomarkers from medical images remains a central yet unresolved challenge in computational medicine. 
-Despite the widespread use of medical imaging in healthcare, imaging biomarker discovery still relies largely on disease-specific pipelines, handcrafted features, and intensive expert interpretation, limiting the ability to uncover  fine-grained, heterogeneous manifestations of disease at scale. 
-Here we introduce GenSID, a computational framework that **repurposes generative artificial intelligence (AI) as an engine for systematic imaging biomarker discovery**. 
-GenSID learns disentangled latent trajectories that continuously span healthy and diseased states, enabling structured exploration of disease-related image variations. 
-By tracing these variations, GenSID automatically isolates, disentangles, and organizes subtle imaging abnormalities into candidate biomarkers, which can be efficiently refined through expert-in-the-loop validation.
-Across multiple imaging modalities and representative diseases, GenSID recovers established imaging biomarkers while revealing **previously unreported** imaging patterns with strong visual disentanglement and high expert agreement. 
-The framework further enables biomarker-level personalized assessment, reveals disease subtypes, and supports clinically meaningful patient stratification.
-Together, our results demonstrate that generative AI can be transformed from a tool for image synthesis into a **computational paradigm for systematic biomarker discovery**, enabling the construction of dense and interpretable atlases of clinically actionable imaging biomarkers and opening new opportunities for scalable disease characterization across biomedical imaging.
+Medical imaging is centre to modern healthcare by utilizing imaging biomarkers (IBs) to indicate disease presence, severity, and progression. 
+The discovery of IBs has traditionally relied on disease-specific pipelines, handcrafted features, and extensive expert curation, limiting scalability and generalizability. 
+Here we introduce **AID**, a generalizable framework that **repurposes generative artificial intelligence (AI) as a data-driven engine for automated and interpretable IB discovery**. 
+By learning disentangled latent trajectories spanning healthy and diseased states, AID automatically isolating heterogeneous imaging abnormalities into fine-grained IBs, refined through expert-in-the-loop validation. 
+Across multiple imaging modalities and diseases, AID recovers established IBs while revealing previously unreported patterns with strong visual disentanglement and high expert agreement. 
+AID further enables biomarker-level personalized assessment, reveals disease subtypes, and supports patient stratification. 
+Together, our results establish generative AI as **a powerful paradigm for constructing a fine-grained atlas of clinically actionable IBs**, paving the way for **scalable** and **interpretable** solutions for disease detection, diagnosis, and monitoring in modern healthcare.
 
 ## Overview of the framework
 
