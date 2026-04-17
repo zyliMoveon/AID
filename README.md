@@ -1,4 +1,4 @@
-# AID: Auto-discovery of imaging biomarkers using generative artificial intelligence
+# AID: Generative AI for automated and interpretable discovery of imaging biomarkers across diseases
 This is a code implementation of "**Auto-discovery of imaging biomarkers using generative artificial intelligence**"
 
 ## Introduction
